@@ -1,0 +1,11 @@
+{
+  "name": "miyukowo's repo",
+  "subtitle": "Self-hosted apps by miyukowo",
+  "description": "A collection of self-hosted sideloaded apps by miyukowo.",
+  "iconURL": "https://raw.githubusercontent.com/miyukowo/static/refs/heads/main/marine.png",
+  "headerURL": "https://raw.githubusercontent.com/miyukowo/static/refs/heads/main/marin1_waifu2x_art_noise1_tta_1.png",
+  "website": "https://repo.tvphus.dev",
+  "tintColor": "#A855F7",
+  "featuredApps": [],
+  "apps": []
+}

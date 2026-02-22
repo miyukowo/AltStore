@@ -1,0 +1,16 @@
+{
+  "_comment": "Add your self-hosted apps here. Each key is the bundle ID. Upload the IPA to a GitHub Release on this repo and paste the download URL in ipaURL.",
+  "_example": {
+    "com.example.app": {
+      "displayName": "My App",
+      "subtitle": "A short tagline",
+      "appDescription": "Full description of what the app does.",
+      "iconURL": "https://example.com/icon.png",
+      "ipaURL": "https://github.com/miyukowo/AltStore/releases/download/v1.0.0/myapp.ipa",
+      "versionDescription": "- Initial release",
+      "date": "2026-02-23T00:00:00+07:00",
+      "tintColor": "#A855F7",
+      "screenshots": []
+    }
+  }
+}
