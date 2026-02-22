@@ -3,9 +3,135 @@
   "subtitle": "Self-hosted apps by miyukowo",
   "description": "A collection of self-hosted sideloaded apps by miyukowo.",
   "iconURL": "https://raw.githubusercontent.com/miyukowo/static/refs/heads/main/marine.png",
-  "headerURL": "https://raw.githubusercontent.com/miyukowo/static/refs/heads/main/marin1_waifu2x_art_noise1_tta_1.png",
   "website": "https://repo.tvphus.dev",
+  "patreonURL": "",
   "tintColor": "#A855F7",
-  "featuredApps": [],
-  "apps": []
+  "featuredApps": [
+    "com.spotify.client",
+    "xyz.phim4k.ios"
+  ],
+  "headerURL": "https://raw.githubusercontent.com/miyukowo/static/refs/heads/main/marin1_waifu2x_art_noise1_tta_1.png",
+  "apps": [
+    {
+      "name": "EeveeSpotify Revived",
+      "bundleIdentifier": "com.spotify.client",
+      "marketplaceID": "",
+      "developerName": "Skye",
+      "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
+      "localizedDescription": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.\n\n---\n• Custom Lyrics Support\nSpotify 9.1.22 - Full custom lyrics functionality is available with the following provider:\n- Musixmatch ✅ (Currently enabled)\n\n• Note:\nOther providers (Genius, LRCLIB, PetitLyrics) are available in the code but disabled in build.*\n\n• Difference between non-patched and patched IPA?\nUsing the patched IPA should fix any widgets issues had when sideloading with paid certs (with app groups entitlement). This fix does not work with free sideloading methods such as AltStore/Sideloadly, and TrollStore users do not need to use a patched IPA.",
+      "iconURL": "https://raw.githubusercontent.com/miyukowo/AltStore/refs/heads/main/img/spotify/spotify.png",
+      "tintColor": "#04fc94",
+      "category": "other",
+      "screenshots": [
+        {
+          "imageURL": "https://github.com/Meeep1/EeveeSpotifyRevivedPublic/raw/main/Images/banner.png?",
+          "width": 2880,
+          "height": 1080
+        }
+      ],
+      "versions": [
+        {
+          "version": "9.1.22",
+          "date": "2026-02-12T10:19:00+07:00",
+          "localizedDescription": "• Fixed gear icon not apearing in other languages\n• Eevee Spotify v6.5.3 included\n• OpenSpotifySafariExtension included",
+          "downloadURL": "https://drive.tvphus.dev/api/raw?path=/repo/spotify/EeveeSpotify-6.5.3-9.1.22.ipa",
+          "size": 97200000,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "9.1.22-patched",
+          "date": "2026-02-12T10:19:00+07:00",
+          "localizedDescription": "• Fixed gear icon not apearing in other languages\n• Eevee Spotify v6.5.3 included\n• OpenSpotifySafariExtension included\n\n• Difference between non-patched and patched IPA?\nUsing the patched IPA should fix any widgets issues had when sideloading with paid certs (with app groups entitlement). This fix does not work with free sideloading methods such as AltStore/Sideloadly, and TrollStore users do not need to use a patched IPA.",
+          "downloadURL": "https://drive.tvphus.dev/api/raw?path=/repo/spotify/EeveeSpotify-6.5.3-9.1.22-patched.ipa",
+          "size": 99300000,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Phim 4K",
+      "bundleIdentifier": "xyz.phim4k.ios",
+      "marketplaceID": "",
+      "developerName": "Phim4K",
+      "subtitle": "Xem phim 4K UHD mượt như lụa.",
+      "localizedDescription": "Phim4K mang cả rạp phim tới nhà của bạn. Kho phim đồ sộ, không quảng cáo, UI thân thiện.\n\n---\nVì sao chọn Phim4K?\n\n• Server siêu tốc\nTối ưu tuyến truyền, CDN toàn cầu. Phát là chạy.\n\n• Chất lượng 4K UHD\nNguồn phim rõ nét, hỗ trợ HDR khi có.\n\n• Không quảng cáo\nTập trung 100% vào nội dung bạn yêu thích.\n\n• Giao diện thân thiện\nDễ dùng, tìm phim nhanh, gợi ý thông minh.",
+      "iconURL": "https://raw.githubusercontent.com/miyukowo/AltStore/refs/heads/main/img/phim4k/phim4k.jpg",
+      "tintColor": "#7f7f7f",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.9.7",
+          "date": "2026-02-22T06:18:00+07:00",
+          "localizedDescription": null,
+          "downloadURL": "https://phim4k.xyz/downloads/ios",
+          "size": 38200000,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocationAlwaysUsageDescription": "This app requires location.",
+          "NSMotionUsageDescription": "This app needs to be able to access your motion use",
+          "NSAppleMusicUsageDescription": "Play using while you are hiking",
+          "NSSpeechRecognitionUsageDescription": "recognize speech",
+          "NSCalendarsUsageDescription": "App requires access to your calender .",
+          "NSLocationWhenInUseUsageDescription": "This app requires location.",
+          "NSContactsUsageDescription": "App requires access to your contact .",
+          "NSPhotoLibraryUsageDescription": "This app requires access to the photo library to support Profile Update."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": [
+    {
+      "title": "Added Phim 4K to miyukowo's repo!",
+      "identifier": "news_6darrnytcr",
+      "caption": "New app added to miyukowo's repo",
+      "date": "2026-02-23T04:07",
+      "tintColor": "#7f7f7f",
+      "imageURL": "",
+      "notify": false,
+      "url": "https://example.com/new_feature_details",
+      "appID": "xyz.phim4k.ios"
+    },
+    {
+      "title": "Added EeveeSpotify Revived to miyukowo's repo!",
+      "identifier": "news_fblnh9o2ks",
+      "caption": "New app added to miyukowo's repo",
+      "date": "2026-02-13T21:19",
+      "tintColor": "#00961e",
+      "imageURL": "",
+      "notify": false,
+      "url": "https://example.com/new_feature_details",
+      "appID": "com.spotify.client"
+    }
+  ]
 }
