@@ -1,4 +1,4 @@
-name: Generate Store Files
+﻿name: Generate Store Files
 
 on:
   push:
@@ -36,5 +36,5 @@ jobs:
           git add --force repo.json
           echo "Staged files:"
           git diff --staged --name-only
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update repo.json"
+          git diff --staged --quiet || git commit -m "chore: update repo.json"
           git push
