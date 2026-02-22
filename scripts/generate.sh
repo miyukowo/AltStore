@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -14,7 +14,7 @@ trap cleanup EXIT
 
 echo "[]" > "$APPS_FULL_JSON"
 
-jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
+jq -c 'to_entries[] | select(.value | type == "object" and has("displayName"))' "$METADATA_JSON" | while read -r entry; do
   BUNDLE_ID=$(echo "$entry" | jq -r '.key')
   app_json=$(echo "$entry" | jq '.value')
 
@@ -110,7 +110,7 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   }
   mv "$APPS_FULL_JSON.tmp" "$APPS_FULL_JSON"
 
-  echo "  ✓ $DISPLAY_NAME added successfully"
+  echo "  ok $DISPLAY_NAME added successfully"
   rm -rf "$TMP_DIR"
 done
 
@@ -145,5 +145,5 @@ APPS_ARRAY=$(jq 'map({
 
 echo "$PRESET" | jq --argjson apps "$APPS_ARRAY" '.apps = $apps' > "$OUTPUT_JSON"
 
-echo "✓ repo.json generated at $OUTPUT_JSON"
+echo "ok repo.json generated at $OUTPUT_JSON"
 echo "DONE!"

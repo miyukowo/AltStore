@@ -1,5 +1,4 @@
-{
-  "_comment": "Add your self-hosted apps here. Each key is the bundle ID. Upload the IPA to a GitHub Release on this repo and paste the download URL in ipaURL.",
+﻿{
   "_example": {
     "com.example.app": {
       "displayName": "My App",
